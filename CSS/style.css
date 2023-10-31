@@ -1,0 +1,39 @@
+.nav 
+{
+    border: 1px solid #ccc;
+    border-width: 1px 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* « The magic. */
+}
+
+.nav li 
+{
+    display: inline; /* « More magic. */
+}
+
+.nav a 
+{
+    display: inline-block; /* « Last bit of magic. */
+    padding: 10px;
+}
+
+body
+{
+    background-color: white;
+}
+
+p
+{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+@media (min-width: 400px)
+{
+    img
+    {
+        width: 400px;
+    }
+}
