@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Portfolio</title>
+    <link href="CSS/style.css" rel="stylesheet">
+    
+</head>
+<body>
+    <ul class="nav">
+        <li><a href="index.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact Info</a></li>
+    </ul>
+    
+    <h1>CS155 Final Project</h1>
+
+    <p>
+        For this project I decided to implement an XOR gate with light switches for input, LED's for output
+        and a sound functionality.<br/><br/>
+
+        <img src="images/xorGate.png" width="500px"><br/><br/>
+        The truth table explains that there is an output when the inputs have different values.<br/><br/>
+        <img src="images/cs155img00.jpg" width="500px"><br/><br/>
+        The switches are both off, translates to 0 0 on truth table.<br/><br/>
+        <img src="images/cs155img01.jpg" width="500px"><br/><br/>
+        The first switch is off, second is on, translates to 0 1 on truth table.<br/><br/>
+        <img src="images/cs155img10.jpg" width="500px"><br/><br/>
+        The first switch is on, second is off, translates to 1 0 on truth table.<br/><br/>
+        <img src="images/cs155img11.jpg" width="500px"><br/><br/>
+        Both switches are on, translates to 1 1 on truth table<br/><br/><br/>
+
+        
+        <video id="myVid" width="500" height="250">
+            <source src="images/cs155videoshort.mp4" type="video/mp4">
+            Sorry, your browser doesn't support the HTML5 video tag
+        </video><br/>
+        <script src="js/java.js"></script> 
+        <button onclick="rewindVideo()" type="button">-5</button>
+        <button onclick="playVideo()" type="button">Play</button>
+        <button onclick="pauseVideo()" type="button">Pause</button>
+        <button onclick="fastForwardVideo()" type="button">+5</button><br/>
+        <br/><br/><br/>
+    </p>    
+
+    <footer>
+        &copy; 2023 Zackary Morrow | Designed by Zackary Morrow
+    </footer>
+</body>
+</html>
