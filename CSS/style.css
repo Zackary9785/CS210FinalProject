@@ -43,9 +43,18 @@ footer
     width: 100%;
 }
 
+button
+{
+    text-align: center;
+}
+
 @media (min-width: 400px)
 {
     img
+    {
+        width: 400px;
+    }
+    video
     {
         width: 400px;
     }
